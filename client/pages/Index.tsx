@@ -165,7 +165,7 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-[150vh] bg-thome-dark overflow-hidden pt-22">
+      <section className="relative h-[150vh] bg-thome-dark overflow-hidden pt-11">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -177,11 +177,20 @@ export default function Index() {
         </div>
 
         {/* Logo positioned below sticky nav with spacing */}
-        <div className="absolute top-44 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute top-24 left-1/2 transform -translate-x-1/2 z-20">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
             alt="Thomé Main Logo"
-            className="w-auto h-80 opacity-90"
+            className="w-auto h-60 opacity-90"
+          />
+        </div>
+
+        {/* Logo above carousel */}
+        <div className="absolute bottom-[520px] left-1/2 transform -translate-x-1/2 z-20">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
+            alt="Thomé Logo"
+            className="w-auto h-32 opacity-90"
           />
         </div>
 
