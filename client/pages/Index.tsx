@@ -262,8 +262,8 @@ export default function Index() {
               </h3>
             </div>
 
-            <div className="lg:order-2 text-white font-vietnam text-3xl leading-relaxed tracking-wide opacity-90">
-              <p className="mb-8">
+            <div className="lg:order-2 text-white font-vietnam text-2xl leading-relaxed tracking-wide opacity-90 max-h-[600px] overflow-hidden">
+              <p className="mb-6">
                 A arquitetura ecológica vai muito além do visual verde. Ela
                 nasce de escolhas conscientes, que buscam soluções realmente
                 eficientes para o dia a dia — como conforto térmico sem depender
@@ -271,7 +271,7 @@ export default function Index() {
                 e sistemas que funcionam de verdade.
               </p>
 
-              <p className="mb-8">
+              <p className="mb-6">
                 É uma arquitetura viva, que responde ao clima, ao entorno e às
                 pessoas. Versátil, ela não se prende a modismos, mas se adapta,
                 se reinventa e permanece. Adotar essa abordagem é apostar em
