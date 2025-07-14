@@ -172,11 +172,11 @@ export default function Index() {
         </div>
 
         {/* Logo above carousel with carousel-similar width */}
-        <div className="absolute bottom-[420px] left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute bottom-[550px] left-1/2 transform -translate-x-1/2 z-20">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F74cc05c8f6174b7f867f07487501559a?format=webp&width=800"
             alt="Thomé Logo"
-            className="w-[800px] h-auto opacity-90 max-w-[90vw]"
+            className="w-[600px] h-auto opacity-90 max-w-[90vw]"
           />
         </div>
 
