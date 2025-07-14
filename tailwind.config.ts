@@ -13,7 +13,17 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        bebas: ["Bebas Neue", "sans-serif"],
+        vietnam: ["Be Vietnam", "sans-serif"],
+        abel: ["Abel", "sans-serif"],
+      },
       colors: {
+        thome: {
+          dark: "#424228",
+          medium: "#575731",
+          light: "#DFDCD4",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
