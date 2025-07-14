@@ -167,17 +167,17 @@ export default function Index() {
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
 
-        {/* Logo Overlay */}
-        <div className="absolute inset-0 z-10">
+        {/* Logo positioned below sticky nav with spacing */}
+        <div className="absolute top-44 left-1/2 transform -translate-x-1/2 z-20">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b1081d6b3d792ed287e72a406bce3d5cc9a00dc1?width=3824"
+            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
             alt="Thomé Main Logo"
-            className="w-full h-full object-cover opacity-90"
+            className="w-auto h-80 opacity-90"
           />
         </div>
 
-        {/* Carousel - positioned lower, double the distance from sticky nav */}
-        <div className="absolute bottom-96 left-1/2 transform -translate-x-1/2 z-20">
+        {/* Carousel - positioned much lower */}
+        <div className="absolute bottom-[400px] left-1/2 transform -translate-x-1/2 z-20">
           <div className="relative w-[854px] h-[480px]">
             <div className="relative w-full h-full rounded-[51px] border-[7px] border-thome-light overflow-hidden">
               <img
