@@ -603,6 +603,34 @@ export default function Index() {
               </div>
             </div>
           </div>
+
+          {/* Calculate Button */}
+          <div className="mt-8 text-center">
+            <button
+              onClick={() => {
+                if (
+                  formData.nome &&
+                  formData.email &&
+                  formData.telefone &&
+                  formData.area &&
+                  formData.tipoProjeto &&
+                  formData.tipoServico
+                ) {
+                  const value = calculateValue();
+                  setCalculatedValue(value);
+                  // Here you could also send data to email
+                  alert(
+                    `Orçamento calculado: R$ ${value?.toLocaleString("pt-BR")}`,
+                  );
+                } else {
+                  alert("Por favor, preencha todos os campos obrigatórios.");
+                }
+              }}
+              className="bg-thome-light hover:bg-white text-thome-dark font-bebas text-3xl py-6 px-12 rounded-lg transition-colors shadow-lg"
+            >
+              CALCULAR ORÇAMENTO
+            </button>
+          </div>
         </div>
       </section>
     </div>
