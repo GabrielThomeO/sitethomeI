@@ -176,17 +176,17 @@ export default function Index() {
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
 
-        {/* Main logo positioned below sticky nav */}
+        {/* Main logo positioned below sticky nav - increased to carousel width */}
         <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-20">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
             alt="Thomé Main Logo"
-            className="w-auto h-48 opacity-90"
+            className="w-[600px] h-auto opacity-90"
           />
         </div>
 
         {/* New image above carousel with equal spacing */}
-        <div className="absolute bottom-[280px] left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute bottom-[320px] left-1/2 transform -translate-x-1/2 z-20">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F37573506d74f4b059416fb1e12c86a6c?format=webp&width=800"
             alt="Thomé Logo"
@@ -194,8 +194,8 @@ export default function Index() {
           />
         </div>
 
-        {/* Carousel - repositioned at bottom of hero section with reduced size */}
-        <div className="absolute bottom-[80px] left-1/2 transform -translate-x-1/2 z-20">
+        {/* Carousel - repositioned equidistant between logo and button */}
+        <div className="absolute bottom-[200px] left-1/2 transform -translate-x-1/2 z-20">
           <div className="relative w-[600px] h-[360px]">
             <div className="relative w-full h-full rounded-[51px] border-[7px] border-thome-light overflow-hidden">
               <img
@@ -424,7 +424,7 @@ export default function Index() {
                 </p>
                 <p>• Seleção de profissionais e fornecedores</p>
                 <p>• Pendrive e link de acesso a todos os arquivos digitais</p>
-                <p>• Or��amento estimativo da obra</p>
+                <p>• Orçamento estimativo da obra</p>
               </div>
             </div>
 
