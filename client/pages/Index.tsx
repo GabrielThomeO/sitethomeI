@@ -171,12 +171,12 @@ export default function Index() {
           />
         </div>
 
-        {/* New image above carousel with equal spacing */}
+        {/* Logo above carousel with carousel-similar width */}
         <div className="absolute bottom-[420px] left-1/2 transform -translate-x-1/2 z-20">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F37573506d74f4b059416fb1e12c86a6c?format=webp&width=800"
+            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F74cc05c8f6174b7f867f07487501559a?format=webp&width=800"
             alt="Thomé Logo"
-            className="w-auto h-24 opacity-90"
+            className="w-[800px] h-auto opacity-90 max-w-[90vw]"
           />
         </div>
 
@@ -496,7 +496,7 @@ export default function Index() {
 
             {/* Calculadora Column */}
             <div className="bg-transparent border-2 border-white rounded-[50px] p-8 flex flex-col">
-              <h3 className="font-bebas text-white text-6xl tracking-widest text-stroke-white text-center mb-8 flex-shrink-0">
+              <h3 className="font-bebas text-white text-6xl tracking-widest text-stroke-white text-center mb-8 flex-shrink-0 -ml-3">
                 CALCULADORA
               </h3>
 
