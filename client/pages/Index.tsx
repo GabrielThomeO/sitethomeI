@@ -22,11 +22,13 @@ export default function Index() {
   });
   const [calculatedValue, setCalculatedValue] = useState<number | null>(null);
 
-  // Carousel images from Figma
+  // Carousel images - the 5 specific images provided
   const carouselImages = [
-    "https://cdn.builder.io/api/v1/image/assets/TEMP/5f3b5f629bd6bf20c0f4528b9976ec00eb8364e7?width=1708",
-    "https://cdn.builder.io/api/v1/image/assets/TEMP/961eff64f3a2ba985ff99f4a66ac0d98bd5b0985?width=1708",
-    "https://cdn.builder.io/api/v1/image/assets/TEMP/14b2957783153a19c0d3238256fa02d9e77879ac?width=1708",
+    "https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2Faa0ab960008c4719a5d54ac001eeee93?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2Faa3520a33fd14533bc3cb5a61202469f?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F672d92a1af184a0b94f99fde2ea51758?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F9cd1aecd2e95485ea905e80ca4ff138d?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F9c0d560810f24278946a783627017fa8?format=webp&width=800",
   ];
 
   const scrollToCalculator = () => {
