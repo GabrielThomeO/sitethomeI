@@ -176,27 +176,27 @@ export default function Index() {
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
 
-        {/* Logo positioned below sticky nav with spacing */}
-        <div className="absolute top-24 left-1/2 transform -translate-x-1/2 z-20">
+        {/* Main logo positioned below sticky nav */}
+        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-20">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
             alt="Thomé Main Logo"
-            className="w-auto h-60 opacity-90"
+            className="w-auto h-48 opacity-90"
           />
         </div>
 
-        {/* Logo above carousel */}
-        <div className="absolute bottom-[520px] left-1/2 transform -translate-x-1/2 z-20">
+        {/* New image above carousel with equal spacing */}
+        <div className="absolute bottom-[280px] left-1/2 transform -translate-x-1/2 z-20">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
+            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F37573506d74f4b059416fb1e12c86a6c?format=webp&width=800"
             alt="Thomé Logo"
-            className="w-auto h-32 opacity-90"
+            className="w-auto h-24 opacity-90"
           />
         </div>
 
-        {/* Carousel - positioned much lower */}
-        <div className="absolute bottom-[400px] left-1/2 transform -translate-x-1/2 z-20">
-          <div className="relative w-[854px] h-[480px]">
+        {/* Carousel - repositioned at bottom of hero section with reduced size */}
+        <div className="absolute bottom-[80px] left-1/2 transform -translate-x-1/2 z-20">
+          <div className="relative w-[600px] h-[360px]">
             <div className="relative w-full h-full rounded-[51px] border-[7px] border-thome-light overflow-hidden">
               <img
                 src={carouselImages[currentSlide]}
