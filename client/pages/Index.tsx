@@ -118,36 +118,36 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Sticky Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-black/75 h-44">
+      {/* Sticky Navigation - Reduced size */}
+      <nav className="fixed top-0 w-full z-50 bg-black/75 h-22">
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
           <img
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/8059895daabedcbb55aae72740eb18def1b42aaf?width=242"
             alt="Thomé Logo"
-            className="h-44 w-auto"
+            className="h-22 w-auto"
           />
-          <div className="hidden lg:flex items-center space-x-12">
+          <div className="hidden lg:flex items-center space-x-8">
             <a
               href="#conceitos"
-              className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               conceitos
             </a>
             <a
               href="#projetos"
-              className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               projetos
             </a>
             <a
               href="#produtos"
-              className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               produtos
             </a>
             <a
               href="#calculator"
-              className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               calculadora
             </a>
@@ -156,7 +156,7 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-[150vh] bg-thome-dark overflow-hidden pt-44">
+      <section className="relative h-[150vh] bg-thome-dark overflow-hidden pt-22">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
