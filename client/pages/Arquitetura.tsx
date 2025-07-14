@@ -46,7 +46,7 @@ export default function Arquitetura() {
         {/* Project Gallery */}
         <div className="mb-16">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2Feaa801b715f3413cb30dde135a61d4a1?format=webp&width=800"
+            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2Feaa801b715f3413cb30dde135a61d4a1?format=webp&width=2400"
             alt="Projetos de Arquitetura"
             className="w-full h-auto rounded-lg border-4 border-thome-light"
           />
