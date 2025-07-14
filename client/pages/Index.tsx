@@ -133,7 +133,7 @@ export default function Index() {
           <img
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/8059895daabedcbb55aae72740eb18def1b42aaf?width=242"
             alt="Thomé Logo"
-            className="h-11 w-auto"
+            className="h-11 w-auto mt-1"
           />
           <div className="hidden lg:flex items-center space-x-8">
             <a
@@ -424,7 +424,7 @@ export default function Index() {
                 </p>
                 <p>• Seleção de profissionais e fornecedores</p>
                 <p>• Pendrive e link de acesso a todos os arquivos digitais</p>
-                <p>• Orçamento estimativo da obra</p>
+                <p>• Or��amento estimativo da obra</p>
               </div>
             </div>
 
