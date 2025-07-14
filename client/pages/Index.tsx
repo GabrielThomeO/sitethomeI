@@ -9,6 +9,15 @@ import {
 
 export default function Index() {
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  // Auto-slide carousel
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % carouselImages.length);
+    }, 4000); // Change slide every 4 seconds
+
+    return () => clearInterval(interval);
+  }, [carouselImages.length]);
   const [formData, setFormData] = useState({
     nome: "",
     email: "",
