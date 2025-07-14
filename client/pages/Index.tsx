@@ -118,8 +118,45 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Sticky Navigation */}
+      <nav className="fixed top-0 w-full z-50 bg-black/75 h-44">
+        <div className="container mx-auto px-4 h-full flex items-center justify-between">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/8059895daabedcbb55aae72740eb18def1b42aaf?width=242"
+            alt="Thomé Logo"
+            className="h-44 w-auto"
+          />
+          <div className="hidden lg:flex items-center space-x-12">
+            <a
+              href="#conceitos"
+              className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
+            >
+              conceitos
+            </a>
+            <a
+              href="#projetos"
+              className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
+            >
+              projetos
+            </a>
+            <a
+              href="#produtos"
+              className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
+            >
+              produtos
+            </a>
+            <a
+              href="#calculator"
+              className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
+            >
+              calculadora
+            </a>
+          </div>
+        </div>
+      </nav>
+
       {/* Hero Section */}
-      <section className="relative h-screen bg-thome-dark overflow-hidden">
+      <section className="relative h-[150vh] bg-thome-dark overflow-hidden pt-44">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -130,43 +167,6 @@ export default function Index() {
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
 
-        {/* Navigation */}
-        <nav className="relative z-20 bg-black/75 h-44">
-          <div className="container mx-auto px-4 h-full flex items-center justify-between">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/8059895daabedcbb55aae72740eb18def1b42aaf?width=242"
-              alt="Thomé Logo"
-              className="h-44 w-auto"
-            />
-            <div className="hidden lg:flex items-center space-x-12">
-              <a
-                href="#conceitos"
-                className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
-              >
-                conceitos
-              </a>
-              <a
-                href="#projetos"
-                className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
-              >
-                projetos
-              </a>
-              <a
-                href="#produtos"
-                className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
-              >
-                produtos
-              </a>
-              <a
-                href="#calculator"
-                className="font-bebas text-white text-4xl tracking-widest text-stroke-white hover:text-gray-300 transition-colors"
-              >
-                calculadora
-              </a>
-            </div>
-          </div>
-        </nav>
-
         {/* Logo Overlay */}
         <div className="absolute inset-0 z-10">
           <img
@@ -176,8 +176,8 @@ export default function Index() {
           />
         </div>
 
-        {/* Carousel */}
-        <div className="absolute bottom-80 left-1/2 transform -translate-x-1/2 z-20">
+        {/* Carousel - positioned lower, double the distance from sticky nav */}
+        <div className="absolute bottom-96 left-1/2 transform -translate-x-1/2 z-20">
           <div className="relative w-[854px] h-[480px]">
             <div className="relative w-full h-full rounded-[51px] border-[7px] border-thome-light overflow-hidden">
               <img
