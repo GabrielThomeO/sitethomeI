@@ -1,13 +1,13 @@
 export default function Chales() {
   return (
-    <div className="min-h-screen bg-thome-dark pt-22">
-      {/* Sticky Navigation Placeholder */}
-      <nav className="fixed top-0 w-full z-50 bg-black/75 h-22">
+    <div className="min-h-screen bg-thome-dark pt-11">
+      {/* Sticky Navigation - Standardized */}
+      <nav className="fixed top-0 w-full z-50 bg-black/75 h-11">
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
           <img
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/8059895daabedcbb55aae72740eb18def1b42aaf?width=242"
             alt="Thomé Logo"
-            className="h-22 w-auto"
+            className="h-11 w-auto mt-1"
           />
           <div className="hidden lg:flex items-center space-x-8">
             <a
@@ -17,19 +17,19 @@ export default function Chales() {
               início
             </a>
             <a
-              href="#conceitos"
+              href="/#conceitos"
               className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               conceitos
             </a>
             <a
-              href="#projetos"
+              href="/#projetos"
               className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               projetos
             </a>
             <a
-              href="#produtos"
+              href="/#produtos"
               className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               produtos
