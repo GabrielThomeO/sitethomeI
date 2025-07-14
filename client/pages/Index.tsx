@@ -176,17 +176,17 @@ export default function Index() {
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
 
-        {/* Main logo positioned below sticky nav - increased to carousel width */}
+        {/* Main logo positioned below sticky nav - doubled size */}
         <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-20">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
             alt="Thomé Main Logo"
-            className="w-[600px] h-auto opacity-90"
+            className="w-[1200px] h-auto opacity-90 max-w-[90vw]"
           />
         </div>
 
         {/* New image above carousel with equal spacing */}
-        <div className="absolute bottom-[320px] left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute bottom-[420px] left-1/2 transform -translate-x-1/2 z-20">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F37573506d74f4b059416fb1e12c86a6c?format=webp&width=800"
             alt="Thomé Logo"
@@ -194,9 +194,9 @@ export default function Index() {
           />
         </div>
 
-        {/* Carousel - repositioned equidistant between logo and button */}
-        <div className="absolute bottom-[200px] left-1/2 transform -translate-x-1/2 z-20">
-          <div className="relative w-[600px] h-[360px]">
+        {/* Carousel - increased size and repositioned */}
+        <div className="absolute bottom-[250px] left-1/2 transform -translate-x-1/2 z-20">
+          <div className="relative w-[800px] h-[480px] max-w-[90vw]">
             <div className="relative w-full h-full rounded-[51px] border-[7px] border-thome-light overflow-hidden">
               <img
                 src={carouselImages[currentSlide]}
