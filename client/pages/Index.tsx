@@ -509,8 +509,8 @@ export default function Index() {
             </div>
 
             {/* Calculadora Column */}
-            <div className="bg-transparent border-2 border-white rounded-[50px] p-8">
-              <h3 className="font-bebas text-white text-6xl tracking-widest text-stroke-white text-center mb-8">
+            <div className="bg-transparent border-2 border-white rounded-[50px] p-8 flex flex-col">
+              <h3 className="font-bebas text-white text-6xl tracking-widest text-stroke-white text-center mb-8 flex-shrink-0">
                 CALCULADORA
               </h3>
 
