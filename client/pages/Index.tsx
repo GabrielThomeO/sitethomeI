@@ -100,21 +100,7 @@ export default function Index() {
     return Math.round(baseValue);
   };
 
-  useEffect(() => {
-    if (
-      formData.nome &&
-      formData.email &&
-      formData.telefone &&
-      formData.area &&
-      formData.tipoProjeto &&
-      formData.tipoServico
-    ) {
-      const value = calculateValue();
-      setCalculatedValue(value);
-    } else {
-      setCalculatedValue(null);
-    }
-  }, [formData]);
+  // Remove auto-calculation effect - only calculate when button is clicked
 
   const openWhatsApp = () => {
     const message = "Olá! Gostaria de saber mais sobre projetos.";
