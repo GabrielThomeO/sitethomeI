@@ -9,15 +9,6 @@ import {
 
 export default function Index() {
   const [currentSlide, setCurrentSlide] = useState(0);
-
-  // Auto-slide carousel
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % carouselImages.length);
-    }, 4000); // Change slide every 4 seconds
-
-    return () => clearInterval(interval);
-  }, [carouselImages.length]);
   const [formData, setFormData] = useState({
     nome: "",
     email: "",
@@ -39,6 +30,15 @@ export default function Index() {
     "https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F9cd1aecd2e95485ea905e80ca4ff138d?format=webp&width=800",
     "https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F9c0d560810f24278946a783627017fa8?format=webp&width=800",
   ];
+
+  // Auto-slide carousel
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % carouselImages.length);
+    }, 4000); // Change slide every 4 seconds
+
+    return () => clearInterval(interval);
+  }, [carouselImages.length]);
 
   const scrollToCalculator = () => {
     document
