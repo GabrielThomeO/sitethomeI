@@ -260,8 +260,13 @@ export default function Interiores() {
 
           {/* Desktop Layout - Pixel Perfect Figma */}
           <div
-            className="hidden lg:block relative mx-auto"
-            style={{ width: "1920px", height: "15199px", maxWidth: "100vw" }}
+            className="hidden lg:block relative mx-auto overflow-hidden"
+            style={{
+              width: "100vw",
+              height: "13679px",
+              transform: "scale(0.8)",
+              transformOrigin: "top center",
+            }}
           >
             {interioresImages.map((image, index) => (
               <div
