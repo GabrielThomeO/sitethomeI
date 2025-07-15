@@ -121,28 +121,28 @@ export default function Index() {
             alt="Thomé Logo"
             className="h-11 w-auto mt-1"
           />
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-8">
             <a
               href="#conceitos"
-              className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               conceitos
             </a>
             <a
               href="#projetos"
-              className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               projetos
             </a>
             <a
               href="#produtos"
-              className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               produtos
             </a>
             <a
               href="#calculator"
-              className="font-bebas text-white text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
             >
               calculadora
             </a>
@@ -163,27 +163,21 @@ export default function Index() {
         </div>
 
         {/* Main logo positioned below sticky nav - doubled size */}
-        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-20 px-4">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
             alt="Thomé Main Logo"
-            className="w-[1200px] h-auto opacity-90 max-w-[90vw]"
+            className="w-[300px] sm:w-[600px] md:w-[900px] lg:w-[1200px] h-auto opacity-90 max-w-[90vw]"
           />
         </div>
 
         {/* Logo above carousel with carousel-similar width - positioned higher */}
-        <div className="absolute bottom-[650px] md:bottom-[700px] left-1/2 transform -translate-x-1/2 z-20">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F74cc05c8f6174b7f867f07487501559a?format=webp&width=800"
-            alt="Thomé Logo"
-            className="w-[600px] md:w-[800px] h-auto opacity-90 max-w-[90vw] mb-[34px]"
-          />
-        </div>
+        <div className="absolute bottom-[650px] md:bottom-[700px] left-1/2 transform -translate-x-1/2 z-20"></div>
 
         {/* Carousel - increased size and repositioned */}
-        <div className="absolute bottom-[250px] left-1/2 transform -translate-x-1/2 z-20">
-          <div className="relative w-[800px] h-[480px] max-w-[90vw]">
-            <div className="relative w-full h-full rounded-[51px] border-[7px] border-thome-light overflow-hidden">
+        <div className="absolute bottom-[300px] sm:bottom-[250px] left-1/2 transform -translate-x-1/2 z-20">
+          <div className="relative w-[300px] sm:w-[600px] md:w-[800px] h-[180px] sm:h-[360px] md:h-[480px] max-w-[90vw]">
+            <div className="relative w-full h-full rounded-[25px] sm:rounded-[35px] md:rounded-[51px] border-[3px] sm:border-[5px] md:border-[7px] border-thome-light overflow-hidden">
               <img
                 src={carouselImages[currentSlide]}
                 alt={`Project ${currentSlide + 1}`}
@@ -193,16 +187,24 @@ export default function Index() {
 
             <button
               onClick={prevSlide}
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 text-thome-light hover:text-white transition-colors"
+              className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 text-thome-light hover:text-white transition-colors"
             >
-              <ChevronLeft size={60} strokeWidth={4} />
+              <ChevronLeft
+                size={30}
+                className="sm:w-[40px] sm:h-[40px] md:w-[60px] md:h-[60px]"
+                strokeWidth={4}
+              />
             </button>
 
             <button
               onClick={nextSlide}
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 text-thome-light hover:text-white transition-colors"
+              className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 text-thome-light hover:text-white transition-colors"
             >
-              <ChevronRight size={60} strokeWidth={4} />
+              <ChevronRight
+                size={30}
+                className="sm:w-[40px] sm:h-[40px] md:w-[60px] md:h-[60px]"
+                strokeWidth={4}
+              />
             </button>
           </div>
         </div>
@@ -210,9 +212,9 @@ export default function Index() {
         {/* Calculator Button */}
         <button
           onClick={scrollToCalculator}
-          className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20 bg-black/75 rounded-2xl px-8 py-6"
+          className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20 bg-black/75 rounded-2xl px-4 py-3 sm:px-8 sm:py-6 max-w-[90vw] w-auto"
         >
-          <span className="font-bebas text-white text-4xl tracking-widest text-stroke-white">
+          <span className="font-bebas text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-widest text-stroke-white whitespace-nowrap">
             CALCULE JÁ O SEU PROJETO
           </span>
         </button>
@@ -232,7 +234,7 @@ export default function Index() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4">
-          <h2 className="font-bebas text-white text-8xl tracking-widest text-stroke-white text-center mb-16">
+          <h2 className="font-bebas text-white text-4xl sm:text-6xl lg:text-8xl tracking-widest text-stroke-white text-center mb-16">
             conceitos
           </h2>
 
@@ -241,14 +243,14 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/fc1c96fd469f2afc4a4c50dd9997834f08ae1b04?width=1048"
                 alt="Gabriel Thomé - Arquiteto"
-                className="w-full max-w-lg mx-auto rounded-[53px] border-[5px] border-thome-light"
+                className="w-full max-w-lg mx-auto rounded-[25px] sm:rounded-[35px] md:rounded-[53px] border-[3px] sm:border-[4px] md:border-[5px] border-thome-light"
               />
-              <h3 className="font-bebas text-white text-4xl tracking-wider text-stroke-white text-center mt-8">
+              <h3 className="font-bebas text-white text-2xl sm:text-3xl md:text-4xl tracking-wider text-stroke-white text-center mt-8">
                 gabriel thomé - arquiteto
               </h3>
             </div>
 
-            <div className="lg:order-2 text-white font-vietnam text-2xl leading-relaxed tracking-wide opacity-90 max-h-[600px] overflow-hidden">
+            <div className="lg:order-2 text-white font-vietnam text-lg sm:text-xl md:text-2xl leading-relaxed tracking-wide opacity-90 max-h-[600px] overflow-hidden px-4 lg:px-0">
               <p className="mb-6">
                 A arquitetura ecológica vai muito além do visual verde. Ela
                 nasce de escolhas conscientes, que buscam soluções realmente
@@ -257,7 +259,7 @@ export default function Index() {
                 e sistemas que funcionam de verdade.
               </p>
 
-              <p className="mb-6">
+              <p className="mb-6 sm:pb-[27px]">
                 É uma arquitetura viva, que responde ao clima, ao entorno e às
                 pessoas. Versátil, ela não se prende a modismos, mas se adapta,
                 se reinventa e permanece. Adotar essa abordagem é apostar em
@@ -277,7 +279,7 @@ export default function Index() {
       {/* Projetos Section */}
       <section id="projetos" className="py-20 bg-thome-dark">
         <div className="container mx-auto px-4">
-          <h2 className="font-bebas text-white text-8xl tracking-widest text-stroke-white text-center mb-16">
+          <h2 className="font-bebas text-white text-4xl sm:text-6xl lg:text-8xl tracking-widest text-stroke-white text-center mb-16">
             PROJETOS
           </h2>
 
@@ -350,7 +352,7 @@ export default function Index() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4">
-          <h2 className="font-bebas text-white text-8xl tracking-widest text-stroke-white text-center mb-16">
+          <h2 className="font-bebas text-white text-4xl sm:text-6xl lg:text-8xl tracking-widest text-stroke-white text-center mb-16">
             PRODUTOS
           </h2>
 
