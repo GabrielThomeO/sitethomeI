@@ -257,7 +257,7 @@ export default function Index() {
 
             <div className="lg:order-2 text-white font-vietnam text-base sm:text-lg md:text-xl leading-normal sm:leading-relaxed tracking-wide opacity-90 overflow-hidden px-4 lg:px-0">
               <p className="mb-4 sm:mb-5">
-                A arquitetura ecológica vai muito al��m do visual verde. Ela
+                A arquitetura ecológica vai muito além do visual verde. Ela
                 nasce de escolhas conscientes, que buscam soluções realmente
                 eficientes para o dia a dia — como conforto térmico sem depender
                 de ar-condicionado, uso inteligente da água, materiais duráveis
