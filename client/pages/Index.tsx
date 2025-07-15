@@ -171,12 +171,12 @@ export default function Index() {
           />
         </div>
 
-        {/* Logo above carousel with carousel-similar width */}
-        <div className="absolute bottom-[550px] left-1/2 transform -translate-x-1/2 z-20">
+        {/* Logo above carousel with carousel-similar width - positioned higher */}
+        <div className="absolute bottom-[650px] md:bottom-[700px] left-1/2 transform -translate-x-1/2 z-20">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F74cc05c8f6174b7f867f07487501559a?format=webp&width=800"
             alt="Thomé Logo"
-            className="w-[600px] h-auto opacity-90 max-w-[90vw]"
+            className="w-[600px] md:w-[800px] h-auto opacity-90 max-w-[90vw]"
           />
         </div>
 
@@ -446,10 +446,10 @@ export default function Index() {
       {/* Calculadora Section */}
       <section id="calculator" className="py-20 bg-thome-dark">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* Dados Column */}
-            <div className="bg-transparent border-2 border-white rounded-[50px] p-8">
-              <h3 className="font-bebas text-white text-6xl tracking-widest text-stroke-white text-center mb-8">
+            <div className="bg-transparent border-2 border-white rounded-[50px] p-6 md:p-8 mx-auto w-full max-w-md lg:max-w-none">
+              <h3 className="font-bebas text-white text-4xl md:text-6xl tracking-widest text-stroke-white text-center mb-6 md:mb-8">
                 DADOS
               </h3>
 
@@ -495,8 +495,8 @@ export default function Index() {
             </div>
 
             {/* Calculadora Column */}
-            <div className="bg-transparent border-2 border-white rounded-[50px] p-8 flex flex-col">
-              <h3 className="font-bebas text-white text-6xl tracking-widest text-stroke-white text-center mb-8 flex-shrink-0 -ml-3">
+            <div className="bg-transparent border-2 border-white rounded-[50px] p-6 md:p-8 flex flex-col mx-auto w-full max-w-md lg:max-w-none">
+              <h3 className="font-bebas text-white text-4xl md:text-6xl tracking-widest text-stroke-white text-center mb-6 md:mb-8 flex-shrink-0">
                 CALCULADORA
               </h3>
 
@@ -564,8 +564,8 @@ export default function Index() {
             </div>
 
             {/* Contato Column */}
-            <div className="bg-transparent border-2 border-white rounded-[50px] p-8">
-              <h3 className="font-bebas text-white text-6xl tracking-widest text-stroke-white text-center mb-8">
+            <div className="bg-transparent border-2 border-white rounded-[50px] p-6 md:p-8 mx-auto w-full max-w-md lg:max-w-none">
+              <h3 className="font-bebas text-white text-4xl md:text-6xl tracking-widest text-stroke-white text-center mb-6 md:mb-8">
                 CONTATO
               </h3>
 
@@ -609,7 +609,7 @@ export default function Index() {
           </div>
 
           {/* Calculate Button */}
-          <div className="mt-8 text-center">
+          <div className="mt-8 text-center px-4">
             <button
               onClick={() => {
                 if (
@@ -630,7 +630,7 @@ export default function Index() {
                   alert("Por favor, preencha todos os campos obrigatórios.");
                 }
               }}
-              className="bg-thome-light hover:bg-white text-thome-dark font-bebas text-3xl py-6 px-12 rounded-lg transition-colors shadow-lg"
+              className="bg-thome-light hover:bg-white text-thome-dark font-bebas text-2xl md:text-3xl py-4 md:py-6 px-8 md:px-12 rounded-lg transition-colors shadow-lg w-full max-w-md"
             >
               CALCULAR ORÇAMENTO
             </button>
