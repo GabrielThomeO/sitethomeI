@@ -270,11 +270,11 @@ export default function Arquitetura() {
           <div
             className="hidden lg:block relative mx-auto overflow-hidden"
             style={{
-              width: "1400px",
-              height: "10591px",
-              transform: "scale(0.65)",
+              width: "600px",
+              height: "4414px",
+              transform: "scale(0.25)",
               transformOrigin: "top center",
-              maxWidth: "100vw",
+              maxWidth: "80vw",
             }}
           >
             {arquiteturaImages.map((image, index) => (
