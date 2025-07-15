@@ -256,8 +256,8 @@ export default function Index() {
               </h3>
             </div>
 
-            <div className="lg:order-2 text-white font-vietnam text-lg sm:text-xl md:text-2xl leading-relaxed tracking-wide opacity-90 max-h-[600px] overflow-hidden px-4 lg:px-0">
-              <p className="mb-6">
+            <div className="lg:order-2 text-white font-vietnam text-base sm:text-lg md:text-xl leading-normal sm:leading-relaxed tracking-wide opacity-90 overflow-hidden px-4 lg:px-0">
+              <p className="mb-4 sm:mb-5">
                 A arquitetura ecológica vai muito além do visual verde. Ela
                 nasce de escolhas conscientes, que buscam soluções realmente
                 eficientes para o dia a dia — como conforto térmico sem depender
@@ -265,7 +265,7 @@ export default function Index() {
                 e sistemas que funcionam de verdade.
               </p>
 
-              <p className="mb-6 sm:pb-[27px]">
+              <p className="mb-4 sm:mb-5 sm:pb-[27px]">
                 É uma arquitetura viva, que responde ao clima, ao entorno e às
                 pessoas. Versátil, ela não se prende a modismos, mas se adapta,
                 se reinventa e permanece. Adotar essa abordagem é apostar em
@@ -273,9 +273,23 @@ export default function Index() {
                 desperdício.
               </p>
 
-              <p>
+              <p className="mb-4 sm:mb-5">
                 É pensar no presente sem comprometer o futuro — com beleza,
                 responsabilidade e inteligência.
+              </p>
+
+              <p className="mb-4 sm:mb-5">
+                Nossos projetos nascem de um diálogo íntimo entre o espaço e
+                quem vai habitá-lo. Cada solução é pensada para ser única,
+                funcional e duradoura. Utilizamos materiais locais, técnicas
+                construtivas eficientes e sempre consideramos o ciclo de vida
+                completo da construção.
+              </p>
+
+              <p>
+                O resultado são espaços que respiram, que se conectam com a
+                natureza e que proporcionam bem-estar genuíno. Arquitetura que
+                não apenas abriga, mas transforma vidas.
               </p>
             </div>
           </div>
@@ -384,7 +398,7 @@ export default function Index() {
                 </p>
                 <p>• Diagramas da solução proposta</p>
                 <p>• Maquete 3D</p>
-                <p>• Memorial consultivo com orientações</p>
+                <p>��� Memorial consultivo com orientações</p>
                 <p>• Link de acesso a todos os arquivos digitais</p>
                 <p>• Voucher para o projeto completo</p>
               </div>
