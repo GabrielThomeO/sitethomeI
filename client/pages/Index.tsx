@@ -165,6 +165,11 @@ export default function Index() {
         {/* Main logo positioned below sticky nav */}
         <div className="absolute top-[74px] md:top-16 left-1/2 transform -translate-x-1/2 z-20 px-4">
           <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F74cc05c8f6174b7f867f07487501559a?format=webp&width=800"
+            alt="Thomé Logo"
+            className="w-[300px] sm:w-[600px] md:w-[800px] h-auto opacity-90 max-w-[90vw]"
+          />
+          <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
             alt="Thomé Main Logo"
             className="w-[300px] sm:w-[600px] md:w-[900px] lg:w-[1200px] h-auto opacity-90 max-w-[90vw]"
@@ -172,13 +177,7 @@ export default function Index() {
         </div>
 
         {/* Logo above carousel with carousel-similar width */}
-        <div className="absolute top-[130px] md:top-[280px] lg:top-[320px] left-1/2 transform -translate-x-1/2 z-20 px-4">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F74cc05c8f6174b7f867f07487501559a?format=webp&width=800"
-            alt="Thomé Logo"
-            className="w-[300px] sm:w-[600px] md:w-[800px] h-auto opacity-90 max-w-[90vw]"
-          />
-        </div>
+        <div className="absolute top-[130px] md:top-[280px] lg:top-[320px] left-1/2 transform -translate-x-1/2 z-20 px-4"></div>
 
         {/* Carousel - repositioned with 30px spacing */}
         <div className="absolute top-[190px] md:top-[430px] lg:top-[480px] left-1/2 transform -translate-x-1/2 z-20">
