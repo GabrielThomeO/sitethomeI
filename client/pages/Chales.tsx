@@ -259,7 +259,7 @@ export default function Chales() {
                 style={{
                   width: `${image.width}px`,
                   height: `${image.height}px`,
-                  left: `${image.left - 600}px`, // Much larger negative offset to move left
+                  left: `${image.left - 900}px`, // Extremely large negative offset to prevent clipping
                   top: `${image.top}px`,
                 }}
                 onClick={() => openModal(image.src, index)}
