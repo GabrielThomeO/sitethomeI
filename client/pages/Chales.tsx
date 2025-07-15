@@ -245,10 +245,11 @@ export default function Chales() {
           <div
             className="hidden lg:block relative mx-auto overflow-hidden"
             style={{
-              width: "100vw",
-              height: "12829px",
-              transform: "scale(0.8)",
+              width: "1400px",
+              height: "10263px",
+              transform: "scale(0.65)",
               transformOrigin: "top center",
+              maxWidth: "100vw",
             }}
           >
             {charesImages.map((image, index) => (
