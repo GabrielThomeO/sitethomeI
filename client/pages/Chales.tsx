@@ -213,19 +213,19 @@ export default function Chales() {
           <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-8">
             <a
               href="/"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white-thin hover:text-gray-300 transition-colors"
             >
               início
             </a>
             <a
               href="/interiores"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white-thin hover:text-gray-300 transition-colors"
             >
               interiores
             </a>
             <a
               href="/arquitetura"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white-thin hover:text-gray-300 transition-colors"
             >
               arquitetura
             </a>
