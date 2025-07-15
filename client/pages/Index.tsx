@@ -302,16 +302,16 @@ export default function Index() {
             PROJETOS
           </h2>
 
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8 items-start">
             <div
-              className="group cursor-pointer"
+              className="group cursor-pointer flex flex-col"
               onClick={() => (window.location.href = "/chales")}
             >
-              <div className="relative rounded-[53px] border-[5px] border-thome-light overflow-hidden transition-transform group-hover:scale-105">
+              <div className="relative rounded-[53px] border-[5px] border-thome-light overflow-hidden transition-transform group-hover:scale-105 aspect-[4/5]">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/42a61da78d764210d50436a8cd03ecca20d49651?width=1048"
                   alt="Chalés"
-                  className="w-full h-96 lg:h-[500px] object-cover group-hover:brightness-110 transition-all"
+                  className="w-full h-full object-cover group-hover:brightness-110 transition-all"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all"></div>
               </div>
@@ -321,14 +321,14 @@ export default function Index() {
             </div>
 
             <div
-              className="group cursor-pointer"
+              className="group cursor-pointer flex flex-col"
               onClick={() => (window.location.href = "/interiores")}
             >
-              <div className="relative rounded-[53px] border-[5px] border-thome-light overflow-hidden transition-transform group-hover:scale-105">
+              <div className="relative rounded-[53px] border-[5px] border-thome-light overflow-hidden transition-transform group-hover:scale-105 aspect-[4/5]">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2f662af3513e92ee778c895a8c805743af21dc3?width=1048"
                   alt="Interiores"
-                  className="w-full h-96 lg:h-[500px] object-cover group-hover:brightness-110 transition-all"
+                  className="w-full h-full object-cover group-hover:brightness-110 transition-all"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all"></div>
               </div>
@@ -338,14 +338,14 @@ export default function Index() {
             </div>
 
             <div
-              className="group cursor-pointer"
+              className="group cursor-pointer flex flex-col"
               onClick={() => (window.location.href = "/arquitetura")}
             >
-              <div className="relative rounded-[53px] border-[5px] border-thome-light overflow-hidden transition-transform group-hover:scale-105">
+              <div className="relative rounded-[53px] border-[5px] border-thome-light overflow-hidden transition-transform group-hover:scale-105 aspect-[4/5]">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef6f2d2b861ef0043340f5d16b4af6f9d8b01ed7?width=1048"
                   alt="Arquitetura"
-                  className="w-full h-96 lg:h-[500px] object-cover group-hover:brightness-110 transition-all"
+                  className="w-full h-full object-cover group-hover:brightness-110 transition-all"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all"></div>
               </div>
