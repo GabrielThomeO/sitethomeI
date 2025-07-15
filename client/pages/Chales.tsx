@@ -243,8 +243,13 @@ export default function Chales() {
 
           {/* Desktop Layout - Pixel Perfect Figma */}
           <div
-            className="hidden lg:block relative mx-auto"
-            style={{ width: "1920px", height: "14255px", maxWidth: "100vw" }}
+            className="hidden lg:block relative mx-auto overflow-hidden"
+            style={{
+              width: "100vw",
+              height: "12829px",
+              transform: "scale(0.8)",
+              transformOrigin: "top center",
+            }}
           >
             {charesImages.map((image, index) => (
               <div
