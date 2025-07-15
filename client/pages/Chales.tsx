@@ -245,9 +245,9 @@ export default function Chales() {
           <div
             className="hidden lg:block relative mx-auto overflow-hidden"
             style={{
-              width: "1400px",
-              height: "10263px",
-              transform: "scale(0.65)",
+              width: "1200px",
+              height: "8553px",
+              transform: "scale(0.55)",
               transformOrigin: "top center",
               maxWidth: "100vw",
             }}
