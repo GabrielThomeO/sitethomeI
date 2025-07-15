@@ -169,11 +169,6 @@ export default function Index() {
             alt="Thomé Logo"
             className="w-[300px] sm:w-[600px] md:w-[800px] h-auto opacity-90 max-w-[90vw]"
           />
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
-            alt="Thomé Main Logo"
-            className="w-[300px] sm:w-[600px] md:w-[900px] lg:w-[1200px] h-auto opacity-90 max-w-[90vw]"
-          />
         </div>
 
         {/* Logo above carousel with carousel-similar width */}
