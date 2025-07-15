@@ -557,7 +557,7 @@ export default function Index() {
                   name="tipoServico"
                   value={formData.tipoServico}
                   onChange={handleInputChange}
-                  className="w-full p-4 rounded-lg border border-thome-light bg-white/10 text-white focus:bg-white/20 transition-all"
+                  className="w-full p-4 rounded-lg border border-thome-light bg-white/10 text-white focus:bg-white/20 transition-all [&>option]:text-black [&>option]:bg-white"
                 >
                   <option value="">Tipo de serviço</option>
                   <option value="consultoria">Consultoria</option>
