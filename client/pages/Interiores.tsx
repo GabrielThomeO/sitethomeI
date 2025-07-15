@@ -262,10 +262,11 @@ export default function Interiores() {
           <div
             className="hidden lg:block relative mx-auto overflow-hidden"
             style={{
-              width: "100vw",
-              height: "13679px",
-              transform: "scale(0.8)",
+              width: "1400px",
+              height: "10943px",
+              transform: "scale(0.65)",
               transformOrigin: "top center",
+              maxWidth: "100vw",
             }}
           >
             {interioresImages.map((image, index) => (
