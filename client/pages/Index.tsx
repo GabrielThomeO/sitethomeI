@@ -97,7 +97,7 @@ export default function Index() {
     // Add kitchen and bathroom bonuses
     baseValue += cozinhas * 2000 + banheiros * 1500;
 
-    return Math.round(baseValue);
+    return Math.round(baseValue / 10);
   };
 
   // Remove auto-calculation effect - only calculate when button is clicked
@@ -398,7 +398,7 @@ export default function Index() {
                 </p>
                 <p>• Diagramas da solução proposta</p>
                 <p>• Maquete 3D</p>
-                <p>��� Memorial consultivo com orientações</p>
+                <p>• Memorial consultivo com orientações</p>
                 <p>• Link de acesso a todos os arquivos digitais</p>
                 <p>• Voucher para o projeto completo</p>
               </div>
