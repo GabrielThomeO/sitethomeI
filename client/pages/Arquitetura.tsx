@@ -268,8 +268,13 @@ export default function Arquitetura() {
 
           {/* Desktop Layout - Pixel Perfect Figma */}
           <div
-            className="hidden lg:block relative mx-auto"
-            style={{ width: "1920px", height: "14710px", maxWidth: "100vw" }}
+            className="hidden lg:block relative mx-auto overflow-hidden"
+            style={{
+              width: "100vw",
+              height: "13239px",
+              transform: "scale(0.8)",
+              transformOrigin: "top center",
+            }}
           >
             {arquiteturaImages.map((image, index) => (
               <div
