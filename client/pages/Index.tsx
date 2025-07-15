@@ -124,25 +124,25 @@ export default function Index() {
           <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-8">
             <a
               href="#conceitos"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-thin hover:text-gray-300 transition-colors"
             >
               conceitos
             </a>
             <a
               href="#projetos"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-thin hover:text-gray-300 transition-colors"
             >
               projetos
             </a>
             <a
               href="#produtos"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-thin hover:text-gray-300 transition-colors"
             >
               produtos
             </a>
             <a
               href="#calculator"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-thin hover:text-gray-300 transition-colors"
             >
               calculadora
             </a>
@@ -151,7 +151,7 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-[150vh] bg-thome-dark overflow-hidden pt-11">
+      <section className="relative h-[100vh] md:h-[120vh] bg-thome-dark overflow-hidden pt-11">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -162,8 +162,8 @@ export default function Index() {
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
 
-        {/* Main logo positioned below sticky nav - doubled size */}
-        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-20 px-4">
+        {/* Main logo positioned below sticky nav */}
+        <div className="absolute top-[74px] md:top-16 left-1/2 transform -translate-x-1/2 z-20 px-4">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F85e72338147646dea7c9325fc8c7c1aa?format=webp&width=800"
             alt="Thomé Main Logo"
@@ -171,8 +171,8 @@ export default function Index() {
           />
         </div>
 
-        {/* Logo above carousel with carousel-similar width - positioned higher */}
-        <div className="absolute bottom-[400px] sm:bottom-[450px] md:bottom-[500px] left-1/2 transform -translate-x-1/2 z-20 px-4">
+        {/* Logo above carousel with carousel-similar width */}
+        <div className="absolute top-[130px] md:top-[280px] lg:top-[320px] left-1/2 transform -translate-x-1/2 z-20 px-4">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F4717588d46734d6f8b6837a8bbc277bb%2F74cc05c8f6174b7f867f07487501559a?format=webp&width=800"
             alt="Thomé Logo"
@@ -180,8 +180,8 @@ export default function Index() {
           />
         </div>
 
-        {/* Carousel - increased size and repositioned */}
-        <div className="absolute bottom-[300px] sm:bottom-[250px] left-1/2 transform -translate-x-1/2 z-20">
+        {/* Carousel - repositioned with 30px spacing */}
+        <div className="absolute top-[190px] md:top-[430px] lg:top-[480px] left-1/2 transform -translate-x-1/2 z-20">
           <div className="relative w-[300px] sm:w-[600px] md:w-[800px] h-[180px] sm:h-[360px] md:h-[480px] max-w-[90vw]">
             <div className="relative w-full h-full rounded-[25px] sm:rounded-[35px] md:rounded-[51px] border-[3px] sm:border-[5px] md:border-[7px] border-thome-light overflow-hidden">
               <img
@@ -215,10 +215,10 @@ export default function Index() {
           </div>
         </div>
 
-        {/* Calculator Button */}
+        {/* Calculator Button - positioned with 30px spacing */}
         <button
           onClick={scrollToCalculator}
-          className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20 bg-black/75 rounded-2xl px-4 py-3 sm:px-8 sm:py-6 max-w-[90vw] w-auto"
+          className="absolute top-[400px] md:top-[950px] lg:top-[1000px] left-1/2 transform -translate-x-1/2 z-20 bg-black/75 rounded-2xl px-4 py-3 sm:px-8 sm:py-6 max-w-[90vw] w-auto"
         >
           <span className="font-bebas text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-widest text-stroke-white whitespace-nowrap">
             CALCULE JÁ O SEU PROJETO
