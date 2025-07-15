@@ -151,7 +151,7 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-[120vh] md:h-[120vh] bg-thome-dark overflow-hidden pt-11">
+      <section className="relative h-[120vh] md:h-[140vh] bg-thome-dark overflow-hidden pt-11">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
