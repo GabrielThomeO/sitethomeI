@@ -284,7 +284,7 @@ export default function Arquitetura() {
                 style={{
                   width: `${image.width}px`,
                   height: `${image.height}px`,
-                  left: `${image.left + 250}px`, // Center offset
+                  left: `${image.left - 900}px`, // Extremely large negative offset to prevent clipping
                   top: `${image.top}px`,
                 }}
                 onClick={() => openModal(image.src, index)}
