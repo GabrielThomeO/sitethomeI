@@ -283,10 +283,8 @@ export default function Arquitetura() {
                 style={{
                   width: `${image.width}px`,
                   height: `${image.height}px`,
-                  left: `${image.left}px`,
+                  left: `${image.left + 200}px`, // Center offset
                   top: `${image.top}px`,
-                  transform: "scale(0.9)", // Scale down to fit most screens
-                  transformOrigin: "top left",
                 }}
                 onClick={() => openModal(image.src, index)}
               >
