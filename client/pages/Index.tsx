@@ -124,25 +124,25 @@ export default function Index() {
           <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-8">
             <a
               href="#conceitos"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-thin hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white-thin hover:text-gray-300 transition-colors"
             >
               conceitos
             </a>
             <a
               href="#projetos"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-thin hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white-thin hover:text-gray-300 transition-colors"
             >
               projetos
             </a>
             <a
               href="#produtos"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-thin hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white-thin hover:text-gray-300 transition-colors"
             >
               produtos
             </a>
             <a
               href="#calculator"
-              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-thin hover:text-gray-300 transition-colors"
+              className="font-bebas text-white text-sm sm:text-lg lg:text-2xl tracking-wider text-stroke-white-thin hover:text-gray-300 transition-colors"
             >
               calculadora
             </a>
