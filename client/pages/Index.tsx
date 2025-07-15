@@ -217,7 +217,7 @@ export default function Index() {
         {/* Calculator Button - positioned with 30px spacing */}
         <button
           onClick={scrollToCalculator}
-          className="absolute top-[400px] md:top-[950px] lg:top-[1000px] left-1/2 transform -translate-x-1/2 z-20 bg-black/75 rounded-2xl px-4 py-3 sm:px-8 sm:py-6 max-w-[90vw] w-auto"
+          className="absolute top-[400px] md:top-[800px] lg:top-[850px] left-1/2 transform -translate-x-1/2 z-20 bg-black/75 rounded-2xl px-4 py-3 sm:px-8 sm:py-6 max-w-[90vw] w-auto"
         >
           <span className="font-bebas text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-widest text-stroke-white whitespace-nowrap">
             CALCULE JÁ O SEU PROJETO
@@ -257,7 +257,7 @@ export default function Index() {
 
             <div className="lg:order-2 text-white font-vietnam text-base sm:text-lg md:text-xl leading-normal sm:leading-relaxed tracking-wide opacity-90 overflow-hidden px-4 lg:px-0">
               <p className="mb-4 sm:mb-5">
-                A arquitetura ecológica vai muito além do visual verde. Ela
+                A arquitetura ecológica vai muito al��m do visual verde. Ela
                 nasce de escolhas conscientes, que buscam soluções realmente
                 eficientes para o dia a dia — como conforto térmico sem depender
                 de ar-condicionado, uso inteligente da água, materiais duráveis
